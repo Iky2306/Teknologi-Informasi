@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Website resmi Himpunan Mahasiswa Teknologi Informasi periode kepengurusan 2023/2024"
+    />
+    <meta
+      name="author"
+      content="Developper HIMATIF Universitas Tangerang Raya"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="assets/Logo Himatif.png" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <title>Divisi - HIMATIF UNTARA</title>
+  </head>
+  <body>
+    <header class="container">
+      <div id="nav-left">
+        <a href="home.html"
+          ><img class="logo" src="assets/Logo Himatif.png" alt=""
+        /></a>
+        <!-- Mobile Hamburger -->
+        <button class="hamburger" id="hamburger">
+          <i class="fas fa-bars" id="fa-bars"></i>
+        </button>
+        <button class="close-hamburger" id="close-hamburger">
+          <i class="fas fa-times" id="fa-bars"></i>
+        </button>
+      </div>
+      <nav class="nav-list" id="nav-list">
+        <ul>
+          <li><a href="home.html" class="">Beranda</a></li>
+          <li><a href="divisi.html" class="active">Divisi</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="hero-section container">
+      <div class="hero-left">
+        <h1>Divisi HIMATIF</h1>
+        <div class="tagline">
+          <span>‘‘</span>
+          <p>
+            T.Informasi Beda! T.Informasi Satu! <br />
+            <span>T.Informasi Beda tapi Satu!</span>
+          </p>
+        </div>
+        <!-- <button class="button cta-button" onclick="location='#divisi'">
+        <span>Lihat Divisi</span>
+      </button> -->
+      </div>
+      <div class="hero-right">
+        <img src="assets/Logo Himatif_2.png" alt="" />
+        <img src="assets/untara.png" alt="" />
+      </div>
+    </section>
+    <div class="wave-section">
+      <div class="ocean">
+        <div class="wave"></div>
+      </div>
+    </div>
+    <span class="anchor" id="divisi"></span>
+    <div class="anchor" id="divisi-pemda"></div>
+    <section class="filter-division container">
+      <button
+        class="btn-pill active"
+        id="btn-pemda"
+        onclick="changeDivisionFilter('pemda')"
+      >
+        HUMAS
+      </button>
+      <button
+        class="btn-pill"
+        id="btn-advo"
+        onclick="changeDivisionFilter('advo')"
+      >
+        LITBANG
+      </button>
+      <button
+        class="btn-pill"
+        id="btn-organ"
+        onclick="changeDivisionFilter('organ')"
+      >
+        MEDIF
+      </button>
+      <button
+        class="btn-pill"
+        id="btn-kesek"
+        onclick="changeDivisionFilter('kesek')"
+      >
+        BPO
+      </button>
+    </section>
+
+    <!-- Humas -->
+    <div id="pemda">
+      <section class="divisi container" id="divisi-pemda">
+        <div class="divisi-left">
+          <img src="assets/Divisi Humas 2023.png" alt="Divisi Pemda 2022" />
+          <p>Divisi Hubungan Masyarakat 2023</p>
+        </div>
+        <div class="divisi-right">
+          <div class="divisi-item what-is-hmif">
+            <h2>Tugas Divisi Hubungan Masyarakat</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+              suscipit esse, eos sequi dolor aliquid similique mollitia
+              repudiandae atque aliquam ratione animi dolorem eum id commodi
+              dolorum eius provident tempora.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="program container" id="program-pemda">
+        <h2>Program Kerja</h2>
+        <div class="program-wrapper">
+          <div class="program-item left">
+            <div class="program-title">1. Pelatihan</div>
+            <div class="program-desc">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+                esse possimus pariatur totam dolore sapiente illo laborum
+                aliquam ab explicabo quos, eum placeat velit doloribus. Tenetur
+                nulla unde maxime non.
+              </p>
+            </div>
+          </div>
+          <div class="program-item right">
+            <div class="program-card">1. Algoritma & Pemrograman</div>
+            <div class="program-card">2. Pemrograman Web Dasar</div>
+            <div class="program-card">3. Pengolahan Citra Digital</div>
+          </div>
+        </div>
+        <div class="program-wrapper">
+          <div class="program-item left">
+            <div class="program-title">2. Komunitas</div>
+            <div class="program-desc">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+                esse possimus pariatur totam dolore sapiente illo laborum
+                aliquam ab explicabo quos, eum placeat velit doloribus. Tenetur
+                nulla unde maxime non.
+              </p>
+            </div>
+          </div>
+          <div class="program-item right">
+            <div class="program-card">1. Desain</div>
+            <div class="program-card">2. E-Talk</div>
+            <div class="program-card">3. Software Development</div>
+          </div>
+        </div>
+        <div class="program-wrapper">
+          <div class="program-item left">
+            <div class="program-title">3. Sosialisasi</div>
+            <div class="program-desc">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+                esse possimus pariatur totam dolore sapiente illo laborum
+                aliquam ab explicabo quos, eum placeat velit doloribus. Tenetur
+                nulla unde maxime non.
+              </p>
+            </div>
+          </div>
+          <div class="program-item right">
+            <div class="program-title">4. Kelompok Belajar</div>
+            <div class="program-desc">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+                esse possimus pariatur totam dolore sapiente illo laborum
+                aliquam ab explicabo quos, eum placeat velit doloribus. Tenetur
+                nulla unde maxime non.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="anchor" id="structure-pemda"></div>
+      <section class="org-structure container">
+        <h2>
+          Anggota Divisi<span class="br">Hubungan Masyarakat</span>
+          <span class="br">HIMATIF 2023</span>
+        </h2>
+        <div class="org-structure-wrapper">
+          <div class="structure-card">
+            <img src="assets/iky.jpg" alt="" />
+            <h3>Hendra Kurniawan</h3>
+            <p>Ketua<br />(Divisi HUMAS)</p>
+          </div>
+          <div class="structure-card">
+            <img src="assets/iky.jpg" alt="" />
+            <h3>Misbahudin</h3>
+            <p>Anggota<br />(Divisi HUMAS)</p>
+          </div>
+          <div class="structure-card">
+            <img src="assets/iky.jpg" alt="" />
+            <h3>M. Agung Permana</h3>
+            <p>Anggota<br />(Divisi HUMAS)</p>
+          </div>
+        </div>
+        <div class="org-structure-wrapper">
+          <div class="structure-card">
+            <img src="assets/iky.jpg" alt="" />
+            <h3>Fajar Pratama</h3>
+            <p>Anggota<br />(Divisi HUMAS)</p>
+          </div>
+          <div class="structure-card">
+            <img src="assets/iky.jpg" alt="" />
+            <h3>Harry Septoni Nadapdap</h3>
+            <p>Anggota<br />(Divisi HUMAS)</p>
+          </div>
+          <div class="structure-card">
+            <img src="assets/iky.jpg" alt="" />
+            <h3>Isatirrodiah Safitri A.</h3>
+            <p>Anggota<br />(Divisi HUMAS)</p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Litabng -->
+    <div class="hide" id="advo">
+      <section class="divisi container" id="divisi-advo">
+        <div class="divisi-left">
+          <img src="assets/all-himatif.jpg" alt="Divisi Advokasi 2022" />
+          <p>Divisi Penelitian Dan Pengembangan 2023</p>
+        </div>
+        <div class="divisi-right">
+          <div class="divisi-item what-is-hmif">
+            <h2>Tugas Divisi Penelitian Dan Pengembangan</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+              suscipit esse, eos sequi dolor aliquid similique mollitia
+              repudiandae atque aliquam ratione animi dolorem eum id commodi
+              dolorum eius provident tempora.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="program container" id="program-advo">
+        <h2>Program Kerja</h2>
+        <div class="program-wrapper">
+          <div class="program-item left">
+            <div class="program-title">1. ?????</div>
+            <div class="program-desc">
+              <p>
+                Lorem dolor sit amet consectetur adipisicing elit. Officia esse
+                possimus pariatur totam dolore sapiente illo laborum aliquam ab
+                explicabo quos, eum placeat velit doloribus. Tenetur nulla unde
+                maxime non.
+              </p>
+            </div>
+          </div>
+          <div class="program-item right">
+            <div class="program-card">1. ??????</div>
+            <div class="program-card">2. ?????</div>
+            <div class="program-card">3. ?????????</div>
+          </div>
+        </div>
+        <div class="program-wrapper">
+          <div class="program-item left">
+            <div class="program-title">2. ???????</div>
+            <div class="program-desc">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+                esse possimus pariatur totam dolore sapiente illo laborum
+                aliquam ab explicabo quos, eum placeat velit doloribus. Tenetur
+                nulla unde maxime non.
+              </p>
+            </div>
+          </div>
+          <div class="program-item right">
+            <div class="program-card">1. ????</div>
+            <div class="program-card">2. ???????</div>
+            <div class="program-card">3. ???????</div>
+          </div>
+        </div>
+        <div class="program-wrapper">
+          <div class="program-item left">
+            <div class="program-title">3. ?????</div>
+            <div class="program-desc">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+                esse possimus pariatur totam dolore sapiente illo laborum
+                aliquam ab explicabo quos, eum placeat velit doloribus. Tenetur
+                nulla unde maxime non.
+              </p>
+            </div>
+          </div>
+          <div class="program-item right">
+            <div class="program-title">4. ????????</div>
+            <div class="program-desc">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+                esse possimus pariatur totam dolore sapiente illo laborum
+                aliquam ab explicabo quos, eum placeat velit doloribus. Tenetur
+                nulla unde maxime non.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="anchor" id="structure-advo"></div>
+      <section class="org-structure container">
+        <h2>
+          Anggota Divisi<span class="br">Penelitian Dan Pengembangan</span>
+          <span class="br">HIMATIF 2023</span>
+        </h2>
+        <div class="org-structure-wrapper">
+          <div class="structure-card">
+            <img src="assets/iky.jpg" alt="" />
+            <h3>Mas Ayyub Al Fajar</h3>
+            <p>Ketua<br />(Divisi LITBANG)</p>
+          </div>
+          <div class="structure-card">
+            <img src="assets/iky.jpg" alt="" />
+            <h3>Muhamad Rizki Daelami</h3>
+            <p>Anggota<br />(Anggota LITBANG)</p>
+          </div>
+          <div class="structure-card">
+            <img src="assets/iky.jpg" alt="" />
+            <h3>Ananda Nur Syaputra</h3>
+            <p>Anggota<br />(Anggota LITBANG)</p>
+          </div>
+        </div>
+        <div class="org-structure-wrapper">
+          <div class="structure-card">
+            <img src="assets/iky.jpg" alt="" />
+            <h3>Herian Diki</h3>
+            <p>Anggota<br />(Anggota LITBANG)</p>
+          </div>
+          <div class="structure-card">
+            <img src="assets/iky.jpg" alt="" />
+            <h3>Muhamad Ariq Zaidan</h3>
+            <p>Anggota<br />(Anggota LITBANG)</p>
+          </div>
+          <div class="structure-card">
+            <img src="assets/iky.jpg" alt="" />
+            <h3>Muhamad Farhan</h3>
+            <p>Anggota<br />(Anggota LITBANG)</p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Medif -->
+    <div class="hide" id="organ">
+      <section class="divisi container" id="divisi-organ">
+        <div class="divisi-left">
+          <img src="assets/all-himatif.jpg" alt="Divisi Organisasi 2022" />
+          <p>Divisi Media Informasi 2023</p>
+        </div>
+        <div class="divisi-right">
+          <div class="divisi-item what-is-hmif">
+            <h2>Tugas Divisi Media Infromasi</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+              suscipit esse, eos sequi dolor aliquid similique mollitia
+              repudiandae atque aliquam ratione animi dolorem eum id commodi
+              dolorum eius provident tempora.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="program container" id="program-organ">
+        <h2>Program Kerja</h2>
+        <div class="program-wrapper">
+          <div class="program-item left">
+            <div class="program-title">1. ?????</div>
+            <div class="program-desc">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+                esse possimus pariatur totam dolore sapiente illo laborum
+                aliquam ab explicabo quos, eum placeat velit doloribus. Tenetur
+                nulla unde maxime non.
+              </p>
+            </div>
+          </div>
+          <div class="program-item right">
+            <div class="program-card">1. ??????</div>
+            <div class="program-card">2. ?????</div>
+            <div class="program-card">3. ?????????</div>
+          </div>
+        </div>
+        <div class="program-wrapper">
+          <div class="program-item left">
+            <div class="program-title">2. ???????</div>
+            <div class="program-desc">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+                esse possimus pariatur totam dolore sapiente illo laborum
+                aliquam ab explicabo quos, eum placeat velit doloribus. Tenetur
+                nulla unde maxime non.
+              </p>
+            </div>
+          </div>
+          <div class="program-item right">
+            <div class="program-card">1. ????</div>
+            <div class="program-card">2. ???????</div>
+            <div class="program-card">3. ???????</div>
+          </div>
+        </div>
+        <div class="program-wrapper">
+          <div class="program-item left">
+            <div class="program-title">3. ?????</div>
+            <div class="program-desc">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+                esse possimus pariatur totam dolore sapiente illo laborum
+                aliquam ab explicabo quos, eum placeat velit doloribus. Tenetur
+                nulla unde maxime non.
+              </p>
+            </div>
+          </div>
+          <div class="program-item right">
+            <div class="program-title">4. ????????</div>
+            <div class="program-desc">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+                esse possimus pariatur totam dolore sapiente illo laborum
+                aliquam ab explicabo quos, eum placeat velit doloribus. Tenetur
+                nulla unde maxime non.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="anchor" id="structure-organ"></div>
+      <section class="org-structure container">
+        <h2>Anggota Divisi <span class="br">Media Informasi</span>HIMATIF 2023</h2>
+        <div class="org-structure-wrapper">
+          <div class="structure-card">
+            <img src="assets/iky.jpg" alt="" />
+            <h3>Tedy Santiaji Praja</h3>
+            <p>Ketua<br />(Divisi MEDIF)</p>
+          </div>
+          <div class="structure-card">
+            <img src="assets/iky.jpg" alt="" />
+            <h3>Graciela Christy Nunuela</h3>
+            <p>Anggota<br />(Divisi Medif)</p>
+          </div>
+          <div class="structure-card">
+            <img src="assets/iky.jpg" alt="" />
+            <h3>Aulia Rahma Dewy</h3>
+            <p>Anggota<br />(Divisi MEDIF)</p>
+          </div>
+        </div>
+        <div class="org-structure-wrapper">
+          <div class="structure-card">
+            <img src="assets/iky.jpg" alt="" />
+            <h3>Cahyarani Permatasari</h3>
+            <p>Anggota<br />(Divisi MEDIF)</p>
+          </div>
+          <div class="structure-card">
+            <img src="assets/iky.jpg" alt="" />
+            <h3>Rahman Albari</h3>
+            <p>Anggota<br />(Divisi MEDIF)</p>
+          </div>
+          <div class="structure-card">
+            <img src="assets/iky.jpg" alt="" />
+            <h3>Firmansyah Hidayat</h3>
+            <p>Anggota<br />(Divisi MEDIF)</p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Bpo -->
+    <div class="hide" id="kesek">
+      <section class="divisi container" id="divisi-kesek">
+        <div class="divisi-left">
+          <img src="assets/all-himatif.jpg" alt="Divisi Kesekretariatan 2022" />
+          <p>Badan Pengawas Organisasi 2023</p>
+        </div>
+        <div class="divisi-right">
+          <div class="divisi-item what-is-hmif">
+            <h2>Tugas Badan Pengawas Organisasi</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+              suscipit esse, eos sequi dolor aliquid similique mollitia
+              repudiandae atque aliquam ratione animi dolorem eum id commodi
+              dolorum eius provident tempora.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="program container" id="program-kesek">
+        <h2>Program Kerja</h2>
+        <div class="program-wrapper">
+          <div class="program-item left">
+            <div class="program-title">1. ?????</div>
+            <div class="program-desc">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+                esse possimus pariatur totam dolore sapiente illo laborum
+                aliquam ab explicabo quos, eum placeat velit doloribus. Tenetur
+                nulla unde maxime non.
+              </p>
+            </div>
+          </div>
+          <div class="program-item right">
+            <div class="program-card">1. ??????</div>
+            <div class="program-card">2. ?????</div>
+            <div class="program-card">3. ?????????</div>
+          </div>
+        </div>
+        <div class="program-wrapper">
+          <div class="program-item left">
+            <div class="program-title">2. ???????</div>
+            <div class="program-desc">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+                esse possimus pariatur totam dolore sapiente illo laborum
+                aliquam ab explicabo quos, eum placeat velit doloribus. Tenetur
+                nulla unde maxime non.
+              </p>
+            </div>
+          </div>
+          <div class="program-item right">
+            <div class="program-card">1. ????</div>
+            <div class="program-card">2. ???????</div>
+            <div class="program-card">3. ???????</div>
+          </div>
+        </div>
+        <div class="program-wrapper">
+          <div class="program-item left">
+            <div class="program-title">3. ?????</div>
+            <div class="program-desc">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+                esse possimus pariatur totam dolore sapiente illo laborum
+                aliquam ab explicabo quos, eum placeat velit doloribus. Tenetur
+                nulla unde maxime non.
+              </p>
+            </div>
+          </div>
+          <div class="program-item right">
+            <div class="program-title">4. ????????</div>
+            <div class="program-desc">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+                esse possimus pariatur totam dolore sapiente illo laborum
+                aliquam ab explicabo quos, eum placeat velit doloribus. Tenetur
+                nulla unde maxime non.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="anchor" id="structure-kesek"></div>
+      <section class="org-structure container">
+        <h2>
+          Anggota<span class="br">Badan Pengawas Organisasi</span>HIMATIF 2023
+        </h2>
+        <div class="org-structure-wrapper">
+          <div class="structure-card">
+            <img src="assets/iky.jpg" alt="" />
+            <h3>Muhamad Yunus Mubarok</h3>
+            <p>Anggota<br />BPO)</p>
+          </div>
+          <div class="structure-card">
+            <img src="assets/iky.jpg" alt="" />
+            <h3>Martin Setya Endra W.</h3>
+            <p>Anggota<br />(BPO)</p>
+          </div>
+      </section>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
