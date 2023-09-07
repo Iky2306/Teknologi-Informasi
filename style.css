@@ -1381,11 +1381,12 @@ button.before-gallery img:hover {
 }
 
 .svg_button:hover {
-  background-color: rgb(142, 139, 139);
+  background-color: white;
 }
 
 .svg_button:hover .svg {
-  color: black;
+  background-color: grey;
+  border-color: grey;
 }
 
 .footer_copyright {
@@ -1412,4 +1413,44 @@ button.before-gallery img:hover {
   .svg_button {
     font-size: 20px;
   }
+}
+@keyframes move {
+  0% {
+    right: 5px;
+    bottom: 5px;
+  }
+  20% {
+    right: 50%;
+    bottom: 50%;
+    transform: translate(50%, 50%) rotate(360deg);
+  }
+  30% {
+    right: 50%;
+    bottom: 50%;
+    transform: translate(50%, 50%) rotate(360deg);
+  }
+  50% {
+    right: 5px;
+    bottom: 5px;
+    transform: translate(0, 0);
+  }
+  100% {
+    right: 5px;
+    bottom: 5px;
+  }
+}
+
+.tampilkan {
+  display: block;
+  position: fixed;
+  right: 5px;
+  bottom: 5px;
+  padding: 15px;
+  color: white;
+  background-color: #1a252f;
+  border-radius: 25px;
+  text-decoration: none;
+  cursor: pointer;
+  animation: move 7s infinite;
+  font-family: sans-serif;
 }
