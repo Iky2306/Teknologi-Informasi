@@ -1381,7 +1381,7 @@ button.before-gallery img:hover {
 }
 
 .svg_button:hover {
-  background-color: white;
+  background-color: rgb(142, 139, 139);
 }
 
 .svg_button:hover .svg {
@@ -1393,4 +1393,23 @@ button.before-gallery img:hover {
   background-color: #1a252f;
 
   padding: 20px;
+}
+@media (max-width: 768px) {
+  .footer_title {
+    font-size: 20px;
+    padding: 15px;
+  }
+
+  .footer_address {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .footer_social {
+    margin-top: 10px;
+  }
+
+  .svg_button {
+    font-size: 20px;
+  }
 }
