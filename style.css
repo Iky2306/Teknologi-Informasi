@@ -1439,18 +1439,21 @@ button.before-gallery img:hover {
     bottom: 5px;
   }
 }
-
 .tampilkan {
   display: block;
   position: fixed;
+
   right: 5px;
   bottom: 5px;
+
   padding: 15px;
+
   color: white;
   background-color: #1a252f;
   border-radius: 25px;
+  font-family: sans-serif;
   text-decoration: none;
   cursor: pointer;
-  animation: move 7s infinite;
-  font-family: sans-serif;
+  animation: move 7s 2;
+  animation-delay: 8s;
 }
