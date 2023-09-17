@@ -1462,6 +1462,10 @@ button.before-gallery img:hover {
 }
 
 /* SUEVEY */
+.iky {
+  text-align: center;
+}
+
 .survey-form {
     max-width: 800px;
     min-width: 300px;
