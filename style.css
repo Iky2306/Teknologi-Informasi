@@ -1441,13 +1441,6 @@ button.before-gallery img:hover {
 }
 
 /* Karya Mahasiswa */
-h1{
-    font-size: 4rem;
-    margin-top: 2rem;
-    text-align: center;
-    color: #023047;
-}
-
 .gallery{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr) );
@@ -1477,11 +1470,7 @@ h1{
     background-color: white;
     border-radius: 5px;
 }
-  
-h2 {
-    text-align: center;
-}
-  
+
 .form-group {
     margin-bottom: 20px;
 }
@@ -1514,8 +1503,6 @@ button[type="submit"] {
     border-radius: 4px;
     cursor: pointer;
 }
-  
-
   
 .attribute{
     position: absolute;
