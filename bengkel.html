@@ -13,6 +13,8 @@
       content="Developper HIMATIF Universitas Tangerang Raya"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="bengkel.css" />
+    <script src="bengkel.js" defer></script>
     <link rel="icon" type="image/x-icon" href="assets/Logo Himatif.png" />
     <link
       rel="stylesheet"
@@ -62,6 +64,28 @@
         <div class="wave"></div>
       </div>
     </div>
+<main>
+
+  <form class="survey-form">
+    <h2 class="iky" text="center">BENGKEL IT</h2>
+    <p class="paragraf_form">Punya keluhan mengenai install ulang? install aplikasi? dan masalah lainnya?<br>Yuk, isi kolom dibawah ini untuk hubungi kami:</p>
+    <div class="form-group">
+      <label for="name_person">Nama:</label>
+      <input type="text" id="name_person" name="name_person" required>
+    </div>
+    <div class="form-group">
+      <label for="laptop_person">Merk Laptop:</label>
+      <input type="text" id="laptop_person" name="laptop_person" required>
+    </div>
+    <div class="form-group">
+      <label for="keluhan_person">Keluhan:</label>
+      <textarea id="keluhan_person" name="keluhan_person" rows="4" required></textarea>
+    </div>
+    <button type="submit" onclick="send()">Submit</button>
+  </form>
+</main>
+
+
     <!-- Footer-->
     <footer class="footer">
       <div class="footer_location">

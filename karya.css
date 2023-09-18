@@ -1,0 +1,102 @@
+.creativity{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-color: white;
+
+    padding: 20px;
+    margin: 0;
+
+}
+
+.card{
+
+    position: relative;
+
+    width: 100%;
+    max-width: 300px;
+
+    padding: 0;
+    margin: 15px;
+
+    border-top: 1px solid rgb(235, 235, 235);
+    border-radius: 10px;
+
+    box-sizing: border-box;
+
+
+}
+
+.picture{
+
+    width: 100%;
+
+    padding: 0;
+    margin: 0;
+
+    border-right: 1px solid rgb(235, 235, 235);
+    border-left: 1px solid rgb(235, 235, 235);
+
+    box-sizing: border-box;
+
+}
+
+.creativity_name{
+
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+    padding: 0 10px 0 10px;
+    margin: 0;
+
+    background-color: rgb(235, 235, 235);
+
+    box-sizing: border-box;
+
+}
+
+.creativity_name > a{
+
+    text-decoration: none;
+
+}
+
+.creativity_description{
+
+    font-size: 50%;
+
+    padding: 0 10px 5px 10px;
+    margin: 0;
+
+    background-color: rgb(235, 235, 235);
+
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    box-sizing: border-box;
+
+}
+
+.creativity_creator{
+
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    font-size: 28%;
+
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 5px;
+
+    padding: 0 10px 5px 10px;
+    margin: 0;
+
+    background-color: rgb(235, 235, 235);
+
+    box-sizing: border-box;
+
+}
