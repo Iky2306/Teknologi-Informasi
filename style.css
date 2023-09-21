@@ -1368,32 +1368,7 @@ button.before-gallery img:hover {
 
 .contact_person{
 
-  position: relative;
-
-}
-
-.contact_person2{
-
-position: absolute;
-display: none;
-
-top: 0;
-right: 0;
-
-transform: translate(80%, -100%);
-
-color: black;
-background-color: white;
-padding: 1px;
-border-radius: 5px;
-
-white-space: nowrap;
-
-}
-
-.contact_person:hover .contact_person2{
-
-  display: block;
+text-align: center;
 
 }
 
