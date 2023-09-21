@@ -1366,6 +1366,20 @@ button.before-gallery img:hover {
   margin-bottom: 20px;
 }
 
+.footer_contact_person{
+
+  padding-bottom: 10px;
+
+}
+
+.footer_contact_person > a{
+
+  color: white;
+  padding-left: 8px;
+  padding-right: 8px;
+
+}
+
 .svg_button {
   display: inline-flex;
   border: 2px solid white;

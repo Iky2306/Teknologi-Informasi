@@ -229,7 +229,7 @@ if(btnNext!=null){
 		if (nextIndex > 0) {
 			btnBack.classList.remove("hide");
 		}
-		if (nextIndex > 4) {
+		if (nextIndex == 1) {
 			btnNext.classList.add("hide");
 		}
 	});
