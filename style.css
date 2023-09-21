@@ -1382,11 +1382,11 @@ button.before-gallery img:hover {
 
 .svg_button:hover {
   background-color: white;
+  border: 2px solid grey;
 }
 
 .svg_button:hover .svg {
-  background-color: grey;
-  border-color: grey;
+  color: grey;
 }
 
 .footer_copyright {
