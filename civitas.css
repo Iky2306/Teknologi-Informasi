@@ -1,0 +1,19 @@
+.civitas_whatsapp{
+
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.civitas_whatsapp > a {
+
+    color: black;
+    padding-bottom: 10px;
+  
+}
+
+.civitas_whatsapp > a:hover {
+
+    color: blue;
+  
+}
