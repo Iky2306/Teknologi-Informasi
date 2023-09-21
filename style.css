@@ -1366,17 +1366,34 @@ button.before-gallery img:hover {
   margin-bottom: 20px;
 }
 
-.footer_contact_person{
+.contact_person{
 
-  padding-bottom: 10px;
+  position: relative;
 
 }
 
-.footer_contact_person > a{
+.contact_person2{
 
-  color: white;
-  padding-left: 8px;
-  padding-right: 8px;
+position: absolute;
+display: none;
+
+top: 0;
+right: 0;
+
+transform: translate(80%, -100%);
+
+color: black;
+background-color: white;
+padding: 1px;
+border-radius: 5px;
+
+white-space: nowrap;
+
+}
+
+.contact_person:hover .contact_person2{
+
+  display: block;
 
 }
 
